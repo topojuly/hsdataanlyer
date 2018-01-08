@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-  
 """The main config file for Superset
 
 All configuration in this file can be overridden by providing a superset_config
@@ -94,7 +95,7 @@ ENABLE_PROXY_FIX = False
 # GLOBALS FOR APP Builder
 # ------------------------------
 # Uncomment to setup Your App name
-APP_NAME = 'Import & Export Analyer'
+APP_NAME = '雅讯进出口分析平台'
 
 # Uncomment to setup an App icon
 APP_ICON = '/static/assets/images/superset-logo@2x.png'
