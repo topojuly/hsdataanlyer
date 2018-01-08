@@ -370,7 +370,7 @@ appbuilder.add_link(
     'countryReport',
     label=__('Country Reports'),
     href='/',
-    icon='fa-book',
+    icon='fa-briefcase',
     category='Reports',
     category_label=__('Reports'),
     category_icon='fa-book',)
