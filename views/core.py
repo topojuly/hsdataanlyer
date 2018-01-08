@@ -366,7 +366,42 @@ appbuilder.add_view(
     category='',
     category_icon='',)
 
+appbuilder.add_link(
+    'countryReport',
+    label=__('Country Reports'),
+    href='/',
+    icon='fa-book',
+    category='Reports',
+    category_label=__('Reports'),
+    category_icon='fa-book',)
 
+appbuilder.add_link(
+    'monthReport',
+    label=__('Month Reports'),
+    href='/',
+    icon='fa-moon-o',
+    category='Reports',
+    category_label=__('Reports'),
+    category_icon='fa-book',)
+	
+appbuilder.add_link(
+    'quarterReport',
+    label=__('Quarter Reports'),
+    href='/',
+    icon='fa-paper-plane-o',
+    category='Reports',
+    category_label=__('Reports'),
+    category_icon='fa-book',)
+
+appbuilder.add_link(
+    'yearReport',
+    label=__('Year Reports'),
+    href='/',
+    icon='fa-paper-plane',
+    category='Reports',
+    category_label=__('Reports'),
+    category_icon='fa-book',)
+	
 class SliceAsync(SliceModelView):  # noqa
     list_columns = [
         'slice_link', 'viz_type',

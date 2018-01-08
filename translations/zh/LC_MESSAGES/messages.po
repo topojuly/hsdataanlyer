@@ -3614,6 +3614,27 @@ msgstr ""
 msgid "Saved Queries"
 msgstr "已保存查询"
 
+#: superset/views/core.py:384
+msgid "Reports"
+msgstr "数据报告"
+
+#: superset/views/core.py:391
+msgid "Country Reports"
+msgstr "国别报告"
+
+#: superset/views/core.py:400
+msgid "Month Reports"
+msgstr "月度报告"
+
+#: superset/views/core.py:409
+msgid "Quarter Reports"
+msgstr "季度报告"
+
+#: superset/views/core.py:418
+msgid "Year Reports"
+msgstr "年度报告"
+
+
 #~ msgid "Your query was saved"
 #~ msgstr "已保存你的查询"
 
