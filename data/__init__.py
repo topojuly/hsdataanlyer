@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 """Loads datasets, dashboards and slices in a new superset instance"""
 from __future__ import absolute_import
 from __future__ import division

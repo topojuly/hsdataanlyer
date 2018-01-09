@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 """annotations
 
 Revision ID: ddd6ebdd853b

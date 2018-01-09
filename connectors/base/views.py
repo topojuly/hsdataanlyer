@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 from flask import Markup
 
 from superset.utils import SupersetException

@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*- 
 """change_table_unique_constraint
 
 Revision ID: b4456560d4f3

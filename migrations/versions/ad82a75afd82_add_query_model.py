@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*- 
 """Update models to support storing the queries.
 
 Revision ID: ad82a75afd82

@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*- 
 """Add new field 'is_restricted' to SqlMetric and DruidMetric
 
 Revision ID: d8bc074f7aad

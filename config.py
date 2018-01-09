@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 # -*- coding: utf-8 -*-  
 """The main config file for Superset
 
@@ -95,7 +96,7 @@ ENABLE_PROXY_FIX = False
 # GLOBALS FOR APP Builder
 # ------------------------------
 # Uncomment to setup Your App name
-APP_NAME = '雅讯进出口分析平台'
+APP_NAME = '雅讯进出口数据分析平台'
 
 # Uncomment to setup an App icon
 APP_ICON = '/static/assets/images/superset-logo@2x.png'
@@ -137,7 +138,7 @@ AUTH_TYPE = AUTH_DB
 # AUTH_LDAP_SERVER = "ldap://ldapserver.new"
 
 # Uncomment to setup OpenID providers example for OpenID authentication
-# OPENID_PROVIDERS = [
+#OPENID_PROVIDERS = [
 #    { 'name': 'Yahoo', 'url': 'https://me.yahoo.com' },
 #    { 'name': 'AOL', 'url': 'http://openid.aol.com/<username>' },
 #    { 'name': 'Flickr', 'url': 'http://www.flickr.com/<username>' },
@@ -259,7 +260,7 @@ INTERVAL = 1
 BACKUP_COUNT = 30
 
 # Set this API key to enable Mapbox visualizations
-MAPBOX_API_KEY = ''
+MAPBOX_API_KEY = 'pk.eyJ1IjoidG9wb2p1bHkiLCJhIjoiY2pibTA4d2trNHdvaTJ4cWZlcGI5MDV3dCJ9.c4bZq8lTGNBrnpSQ0jlBzQ'
 
 # Maximum number of rows returned in the SQL editor
 SQL_MAX_ROW = 1000000
@@ -396,4 +397,4 @@ try:
             superset_config.__file__))
 except ImportError:
     pass
-	
+

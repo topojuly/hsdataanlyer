@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 from __future__ import absolute_import
 from __future__ import division
 from __future__ import print_function
@@ -369,7 +370,7 @@ appbuilder.add_view(
 appbuilder.add_link(
     'countryReport',
     label=__('Country Reports'),
-    href='/',
+    href='/superset/reports',
     icon='fa-briefcase',
     category='Reports',
     category_label=__('Reports'),
@@ -378,7 +379,7 @@ appbuilder.add_link(
 appbuilder.add_link(
     'monthReport',
     label=__('Month Reports'),
-    href='/',
+    href='/superset/reports',
     icon='fa-moon-o',
     category='Reports',
     category_label=__('Reports'),
@@ -387,7 +388,7 @@ appbuilder.add_link(
 appbuilder.add_link(
     'quarterReport',
     label=__('Quarter Reports'),
-    href='/',
+    href='/superset/reports',
     icon='fa-paper-plane-o',
     category='Reports',
     category_label=__('Reports'),
@@ -396,7 +397,7 @@ appbuilder.add_link(
 appbuilder.add_link(
     'yearReport',
     label=__('Year Reports'),
-    href='/',
+    href='/superset/reports',
     icon='fa-paper-plane',
     category='Reports',
     category_label=__('Reports'),
@@ -2450,6 +2451,9 @@ class Superset(BaseSupersetView):
             return json_error_response(DATASOURCE_ACCESS_ERR, status=401)
         return self.get_query_string_response(viz_obj)
 
+    @expose('/reports')
+    def reports(self):
+        return self.render_template('superset/setupping.html')
 
 appbuilder.add_view_no_menu(Superset)
 

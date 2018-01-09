@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 """Views used by the SqlAlchemy connector"""
 from flask import flash, Markup, redirect
 from flask_appbuilder import CompactCRUDMixin, expose

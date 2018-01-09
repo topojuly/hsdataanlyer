@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 import logging
 
 from superset.connectors.druid.models import DruidCluster

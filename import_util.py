@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*- 
 import logging
 
 from sqlalchemy.orm.session import make_transient

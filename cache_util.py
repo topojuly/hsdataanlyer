@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 from flask import request
 
 from superset import tables_cache

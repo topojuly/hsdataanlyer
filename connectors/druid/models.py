@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 # pylint: disable=invalid-unary-operand-type
 from collections import OrderedDict
 from copy import deepcopy
