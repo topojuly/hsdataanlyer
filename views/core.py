@@ -1183,7 +1183,7 @@ class Superset(BaseSupersetView):
             if datasource_type == 'table' \
             else datasource.datasource_name
         if slc:
-            title = '[slice] ' + slc.slice_name
+            title = '[区块] ' + slc.slice_name
         else:
             title = '[explore] ' + table_name
         return self.render_template(
@@ -1871,7 +1871,7 @@ class Superset(BaseSupersetView):
             'superset/dashboard.html',
             entry='dashboard',
             standalone_mode=standalone_mode,
-            title='[dashboard] ' + dash.dashboard_title,
+            title='[看板] ' + dash.dashboard_title,
             bootstrap_data=json.dumps(bootstrap_data),
         )
 
@@ -2453,7 +2453,7 @@ class Superset(BaseSupersetView):
 
     @expose('/reports')
     def reports(self):
-        return self.render_template('superset/setupping.html')
+        return self.render_template('superset/setupping.html',entry='reports',)
 
 appbuilder.add_view_no_menu(Superset)
 
